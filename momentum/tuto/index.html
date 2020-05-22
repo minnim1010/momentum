@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> MinniM </title>
+        <meta charset="utf-8" />
+        <link rel = "stylesheet" href = "index.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body class="all">
+        <div class = "js-clock centerclock">
+            <h1 class="js-title time">00:00</h1>
+        </div>
+        <div>
+            <form class = "js-form form">
+                <input type = "text" placeholder="What is your name?"/>
+            </form>
+            <h4 class="js-greetings greetings"></h4>
+            <form class="js-todoForm todoForm form-group">
+                <input type="text" class="form-control" placeholder="Write To-Do"/>
+            </form>
+            
+            <ul class="js-todoList todoList list-group-flush">
+            </ul>
+        </div>       
+        <span class="js-weather temp"></span>
+        <script src = "clock.js"></script>
+        <script src = "greeting.js"></script>
+        <script src = "todo.js"></script>
+        <script src = "background.js"></script>
+        <script src = "weather.js"></script>
+    </body>
+
+</html>
